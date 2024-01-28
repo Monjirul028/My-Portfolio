@@ -55,7 +55,7 @@ export default function () {
           <div className="profile-options">
             <button className="btn primary-btn">Hire me</button>
             <a
-              href="https://drive.usercontent.google.com/u/0/uc?id=1JytKs92rLwUSad-RBTHo9f5zcpdEkM44&export=download"
+              href="https://drive.google.com/uc?export=download&id=1bN81isfDsB46LD44o0U3YApBi5pYnqna"
               download="Resume MONJIRULF.pdf"
             >
               <button className="btn highlighted-btn">Get Resume</button>
