@@ -38,11 +38,11 @@ export default function () {
                   loop={Infinity}
                   steps={[
                     "Enthusiastic Dev💻",
-                    1000,
+                    1500,
                     "Java Full stack☕️",
-                    1000,
+                    1500,
                     "React Dev⚛️",
-                    1000,
+                    1500,
                   ]}
                 />
               </h1>

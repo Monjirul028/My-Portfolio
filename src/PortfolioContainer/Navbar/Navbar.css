@@ -237,16 +237,20 @@ nav .menu {
 }
 
 nav .menu span {
+    
     height: 0.4rem;
     width: 100%;
-    background-color: #fff;
+    background-color: #f8f8f8;
     border-radius: 0.2rem;
+    border: inset 1px solid rgb(39, 48, 72);
 }
 
 
 @media (max-width: 610px) {
     nav .menu {
         display: flex;
+        margin-top: 5px;
+        margin-right: 20px;
     }
 
     nav {
