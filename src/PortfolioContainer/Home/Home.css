@@ -1,0 +1,16 @@
+.home-container{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 670px;
+    background-color: rgb(39, 48, 81);
+}
+
+@media screen and (max-width: 810px) 
+{
+    .home-container
+    {
+        padding-top: 70px;
+    }
+}

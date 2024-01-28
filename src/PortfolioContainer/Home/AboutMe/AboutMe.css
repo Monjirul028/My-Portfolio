@@ -1,0 +1,185 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.about-me-body
+{
+    background: white
+
+}
+.about-me-head
+{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Poppins SemiBold";
+}
+
+
+.about-me-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.header1
+{
+    text-align: center;
+    padding-bottom: 1px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.header1 h1
+{
+    text-align: center;
+    position: relative;
+    font-family: "Poppins SemiBold";
+    font-size: 23px;
+    color: black;
+}
+.header1:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 120px;
+    background-color: #2ecc71;
+}
+
+
+.about-me-image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-info
+{
+   display: flex; 
+   flex-direction: column;
+
+   justify-content: center;
+   align-items: center;
+}
+
+.about-me-picture
+{
+    margin: 20px;
+    border-radius: 50%;
+    height: 370px;
+    width: 370px;
+    
+    border: 2px solid darkgray;
+background: #e0e0e0;
+box-shadow:  10px 10px 20px #bebebe,
+             -10px -10px 20px #ffffff;
+             
+}
+
+
+.education-div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 10px 10px;
+    border-radius: 26px;
+background: white;
+
+box-shadow:  26px 26px 52px #c9c9c9,
+             -26px -26px 52px #ffffff;
+    
+    padding: 10px;
+    padding-inline: 40px;
+    
+}
+
+.education-div :hover
+{
+    transform: scale(1.1);
+    
+}
+
+.education-div i
+{
+    font-size: 25px;
+}
+
+.education-div h3
+{
+    font-family: "Poppins SemiBold";
+    font-size: 30px;
+}
+
+.education-div p
+{
+    font-family: "Poppins Regular";
+    margin: 0;
+
+    margin-bottom: 2px;
+}
+
+
+
+
+.intro-div p
+{
+    margin-top: 30px;
+    font-family: "Poppins Light";
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+
+@media screen and (max-width: 810px) {
+
+    .about-me-container
+    {
+       
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me-picture
+    {
+        
+        height: 300px;
+        width:300px;
+        z-index: 1;
+        border: 0.2px solid black;
+        margin-bottom: 40px;
+    }
+
+
+    .about-me-picture:hover 
+    {
+        transform: scale(1.01);
+    }
+
+    .about-me-head h1
+    {
+        font-size: 25px !important;
+        text-decoration: underline;
+    }
+
+
+    .intro-div p
+{
+    margin-top: 40px;
+    font-family: "Poppins Light";
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+}
