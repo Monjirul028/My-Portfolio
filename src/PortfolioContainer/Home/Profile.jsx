@@ -56,7 +56,7 @@ export default function () {
             <button className="btn primary-btn">Hire me</button>
             <a
               href="https://drive.google.com/uc?export=download&id=1bN81isfDsB46LD44o0U3YApBi5pYnqna"
-              download="Resume MONJIRULF.pdf"
+              download="MonjirulCV.pdf"
             >
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
