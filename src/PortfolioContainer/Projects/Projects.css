@@ -98,7 +98,7 @@
 }
 
 
-@media (max-width: 1065px) {
+@media (max-width: 1080px) {
 
   .project-image {
     height: 300px;
@@ -120,6 +120,20 @@
     height: 250px;
   }
 
+  .project-title h3
+{
+  margin-left: 30px;
+}
+  .project-title p
+{
+  margin-inline: 0px;
+  margin-left: 30px;
+}
+.project-title h5
+{
+  margin-left: 30px;
+}
+
 }
 
 
@@ -130,6 +144,22 @@
   .project-image {
     height: 200px;
   }
+
+.project-title h3
+{
+  margin-left: 30px;
+}
+  .project-title p
+{
+  margin-inline: 0px;
+  margin-left: 30px;
+}
+.project-title h5
+{
+  margin-left: 30px;
+}
+
+
 
   .image-container-HYDROS .project-image
   {
@@ -143,4 +173,19 @@
   {
     height: 160px;
   }
+
+
+  .project-title h3
+{
+  margin-left: 20px;
+}
+  .project-title p
+{
+  margin-inline: 0px;
+  margin-left: 20px;
+}
+.project-title h5
+{
+  margin-left: 20px;
+}
 }
