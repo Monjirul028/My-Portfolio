@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Skills.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function Skills() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      offset: 10,
+    });
+  }, []);
+
   return (
     <div className="skills-section">
       <div className="footer-parent ">
@@ -15,7 +25,7 @@ function Skills() {
       </div>
 
       <div className="skills-container">
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -28,7 +38,7 @@ function Skills() {
             <h3>Java</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -41,7 +51,7 @@ function Skills() {
             <h3>React</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -54,7 +64,7 @@ function Skills() {
             <h3>JavaScript</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -67,7 +77,7 @@ function Skills() {
             <h3>Python</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -80,7 +90,7 @@ function Skills() {
             <h3>C</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -93,7 +103,7 @@ function Skills() {
             <h3>C++</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -106,7 +116,7 @@ function Skills() {
             <h3>DSA</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -119,7 +129,7 @@ function Skills() {
             <h3>JSP</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -132,7 +142,7 @@ function Skills() {
             <h3>HTML</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -145,7 +155,7 @@ function Skills() {
             <h3>CSS</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -158,7 +168,7 @@ function Skills() {
             <h3>Bootstrap</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -171,7 +181,7 @@ function Skills() {
             <h3>C#</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -183,7 +193,7 @@ function Skills() {
             <h3>Tomcat</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -195,7 +205,7 @@ function Skills() {
             <h3>Linux</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -207,7 +217,7 @@ function Skills() {
             <h3>GitHub</h3>
           </div>
         </div>
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -220,7 +230,7 @@ function Skills() {
           </div>
         </div>
 
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img
@@ -233,7 +243,7 @@ function Skills() {
           </div>
         </div>
 
-        <div className="skill-box">
+        <div className="skill-box" data-AOS="zoom-in">
           <div className="skill">
             <div className="img">
               <img

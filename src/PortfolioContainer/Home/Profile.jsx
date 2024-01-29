@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Typical from "react-typical";
 import "./Profile.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default function () {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration
+      offset: 100, // Offset (in pixels) from the top of the document to trigger animations
+    });
+  }, []);
   return (
     <div className="profile-container">
       <div className="profile-parent">

@@ -176,6 +176,12 @@
     {
         text-align: center;
     }
+
+    .profile-details-role h1
+{
+    font-size: 30px;
+    font-family: cursive;
+}
 }
 
 
@@ -186,10 +192,8 @@
         margin-top: -90;
     }
 
-    .profile-details-role h1
-    {
-        font-size: 30px;
-    }
+ 
+   
 
     .profile-role-tagline
     {

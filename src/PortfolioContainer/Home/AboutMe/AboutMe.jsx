@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./AboutMe.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import the styles
 function AboutMe() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      offset: 100,
+    });
+  }, []);
+
   return (
     <div className="about-me-body">
       <div className="header1">
@@ -8,15 +17,15 @@ function AboutMe() {
       </div>
 
       <div className="about-me-container">
-        <div className="about-me-image">
+        <div className="about-me-image" data-AOS="slide-right">
           <img
-            src={require("../../../assets/Home/profilephoto2.jpg")}
+            src={require("../../../assets/Home/profilephoto1.jpg")}
             alt="Your Alt Text"
             className="about-me-picture"
           />
         </div>
         <div className="about-me-info ">
-          <div className="education-div ">
+          <div className="education-div " data-aos="fade-up">
             <i className="fa fa-graduation-cap"></i>
 
             <h3>Education</h3>
@@ -26,7 +35,7 @@ function AboutMe() {
             <p>Java Full Stack</p>
           </div>
 
-          <div className="intro-div ">
+          <div className="intro-div " data-aos="fade-up">
             <p>
               <h3 style={{ fontFamily: "Poppins SemiBol" }}>Hey folks! 👋</h3>
               I'm Monjirul Al Kadir, a passionate software developer who finds

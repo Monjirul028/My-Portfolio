@@ -72,11 +72,10 @@
 .about-me-picture
 {
     margin: 20px;
-    border-radius: 50%;
+    border-radius: 5%;
     height: 370px;
-    width: 370px;
+    width: 310px;
     
-    border: 2px solid darkgray;
 background: #e0e0e0;
 box-shadow:  10px 10px 20px #bebebe,
              -10px -10px 20px #ffffff;
@@ -151,11 +150,9 @@ box-shadow:  26px 26px 52px #c9c9c9,
 
     .about-me-picture
     {
-        
         height: 300px;
-        width:300px;
+        width:260px;
         z-index: 1;
-        border: 0.2px solid black;
         margin-bottom: 40px;
     }
 
