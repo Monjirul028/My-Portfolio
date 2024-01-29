@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.175b537d.css",
-    "main.js": "/My-Portfolio/static/js/main.b5a21505.js",
+    "main.css": "/My-Portfolio/static/css/main.9dd63567.css",
+    "main.js": "/My-Portfolio/static/js/main.4b6afbcb.js",
     "static/js/787.2dcca737.chunk.js": "/My-Portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/profilephoto.jpg": "/My-Portfolio/static/media/profilephoto.fe5318d0cba017e6523b.jpg",
+    "static/media/adminHome.jpg": "/My-Portfolio/static/media/adminHome.9e22a39c3e58d4103c28.jpg",
+    "static/media/userHome.jpg": "/My-Portfolio/static/media/userHome.b7ec502d4cd505b75331.jpg",
+    "static/media/userSettings.jpg": "/My-Portfolio/static/media/userSettings.7b5b1b5df356084d51dd.jpg",
     "static/media/Poppins-Thin.ttf": "/My-Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-Light.ttf": "/My-Portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
     "static/media/Poppins-Regular.ttf": "/My-Portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
@@ -11,10 +14,18 @@
     "static/media/Poppins-Bold.ttf": "/My-Portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/My-Portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/Poppins-Black.ttf": "/My-Portfolio/static/media/Poppins-Black.eacee5bb9c7fee5939ae.ttf",
+    "static/media/home.png": "/My-Portfolio/static/media/home.d13644f69e5a86e7bc5e.png",
+    "static/media/welcomePage.jpg": "/My-Portfolio/static/media/welcomePage.3485ac80cd2ecc0de3ef.jpg",
     "static/media/ATM.png": "/My-Portfolio/static/media/ATM.bdf4cc3ce9d631f1bd9b.png",
+    "static/media/AtmHome.png": "/My-Portfolio/static/media/AtmHome.974da97d3bf91f6428ac.png",
     "static/media/profilephoto1.jpg": "/My-Portfolio/static/media/profilephoto1.9b6d66ba854a936053c3.jpg",
+    "static/media/fundTrans.png": "/My-Portfolio/static/media/fundTrans.64ccd60434f262171945.png",
+    "static/media/depoSuccess.png": "/My-Portfolio/static/media/depoSuccess.42f83f13816b1cd3f914.png",
+    "static/media/balance.png": "/My-Portfolio/static/media/balance.2bb520ea9980e220ef1d.png",
     "static/media/calc.png": "/My-Portfolio/static/media/calc.a193a4dbd552624aefe7.png",
+    "static/media/remove.png": "/My-Portfolio/static/media/remove.bce054b6cb3e6ca109a0.png",
     "static/media/reactN.png": "/My-Portfolio/static/media/reactN.ff504b3fb4fead2bcec9.png",
+    "static/media/status.png": "/My-Portfolio/static/media/status.524d92e77a1ed99f6384.png",
     "static/media/customers.png": "/My-Portfolio/static/media/customers.3f33accf0a33053145f8.png",
     "static/media/tomcat1.png": "/My-Portfolio/static/media/tomcat1.0572ff114c1e037dc32e.png",
     "static/media/oracleSqlDatabase.png": "/My-Portfolio/static/media/oracleSqlDatabase.2b2a264762d5bd459065.png",
@@ -27,12 +38,12 @@
     "static/media/firebase.png": "/My-Portfolio/static/media/firebase.0c7f27b1fd0ffb264273.png",
     "static/media/c++.png": "/My-Portfolio/static/media/c++.8845ccdfd0d6136ca97f.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.175b537d.css.map": "/My-Portfolio/static/css/main.175b537d.css.map",
-    "main.b5a21505.js.map": "/My-Portfolio/static/js/main.b5a21505.js.map",
+    "main.9dd63567.css.map": "/My-Portfolio/static/css/main.9dd63567.css.map",
+    "main.4b6afbcb.js.map": "/My-Portfolio/static/js/main.4b6afbcb.js.map",
     "787.2dcca737.chunk.js.map": "/My-Portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.175b537d.css",
-    "static/js/main.b5a21505.js"
+    "static/css/main.9dd63567.css",
+    "static/js/main.4b6afbcb.js"
   ]
 }
