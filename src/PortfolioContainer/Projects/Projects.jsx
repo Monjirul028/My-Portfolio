@@ -2,8 +2,16 @@ import React, { useEffect } from "react";
 import "./Projects.css";
 import "aos/dist/aos.css"; // Import the styles
 import Aos from "aos";
+import { useLocation } from "react-router-dom";
+import Footer from "../Home/Footers/Footer";
 
 function Projects() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   useEffect(() => {
     Aos.init({
       duration: 1000,
@@ -11,20 +19,13 @@ function Projects() {
     });
   }, []);
   return (
-    <div>
-      <div className="projects-container ">
-        <div
-          className="profile-details-name text-center header-section "
-          style={{
-            color: "#ff7800",
-            fontFamily: "Poppins bold",
-            fontSize: "40px",
-            marginBottom: "50px",
-          }}
-        >
-          Lets see my works
+    <div id="projects" className="pt-5" style={{ marginTop: "50px" }}>
+      <div className="project-container ">
+        <div className="header3 mb-5" data-Aos="slide-right">
+          <h1 className="">Lets see my works</h1>
         </div>
-        <div className="project-container-row">
+
+        <div className="project-container-row mt-5 " data-Aos="zoom-in">
           <div className="project-title">
             <h3>1. ATM Simulator</h3>
             <p>

@@ -1,0 +1,77 @@
+.form-container
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.contact-form
+{
+    border-radius: 5px;
+    box-shadow: 0 0 20px;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    width: 450px;
+    row-gap: 30px;
+    align-items: center;
+    background-color:rgb(39, 48, 72);
+    padding: 50px;
+}
+
+.contact-form .Input-field,textarea
+{
+    background-color: rgb(240, 246, 250);
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+
+.send-btn
+{
+    width: 100px !important;
+    font-size: 15px;
+    font-family: "Poppins SemiBold";
+    color: rgb(247, 234, 234);
+    padding: 8px;
+    padding-inline: 20px;
+    border-radius: 15px;
+    background-color: rgb(213, 67, 22);
+
+}
+
+@media (max-width: 620px)
+{
+    .contact-form
+    {
+        width: 400px;
+    }
+}
+
+
+
+@media (max-width: 500px)
+{
+    .contact-form
+    {
+        width: 300px;
+    }
+
+    .contact-form .Input-field
+    {
+        font-size: 13px;
+    }
+    .send-btn
+{
+    font-size: 12px;
+    border-radius: 15px;
+   
+}
+
+}
+

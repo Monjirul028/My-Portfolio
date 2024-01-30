@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 670px;
-    background-color: rgb(39, 48, 81);
+    background-color: rgb(39, 48, 71);
 }
 
 @media screen and (max-width: 810px) 

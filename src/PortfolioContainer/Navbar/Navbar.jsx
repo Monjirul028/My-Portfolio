@@ -1,67 +1,17 @@
-// import React, { useState } from "react";
-// import "./Navbar.css";
-// import { Link } from "react-router-dom";
-// function Navbar() {
-//   let [showMediaIcon, setShowMediaIcon] = useState(false);
-
-//   return (
-//     <>
-//       <nav className="nav">
-//         <div className="nav-logo">Monjirul Al Kadir</div>
-
-//         <div
-//           className={showMediaIcon ? "menu-link mobile-menu-link" : "menu-link"}
-//         >
-//           <ul className="menu">
-//             <li className="menu-item">
-//               {" "}
-//               <Link to={"/"}>
-//                 {" "}
-//                 <a href="#">Home</a>{" "}
-//               </Link>
-//             </li>
-//             <li className="menu-item">
-//               {" "}
-//               <Link to={"/projects"}>
-//                 {" "}
-//                 <a href="#">Projects</a>{" "}
-//               </Link>
-//             </li>
-//             <li className="menu-item">
-//               {" "}
-//               <Link to={"/achievements"}>
-//                 {" "}
-//                 <a href="#">Achievements</a>
-//               </Link>
-//             </li>
-//             <li className="menu-item">
-//               {" "}
-//               <Link to={"/contact"}>
-//                 <a href="#">Contact</a>
-//               </Link>
-//             </li>
-//           </ul>
-//         </div>
-
-//         <div className="hamburger-menu">
-//           <a href="#" onClick={() => setShowMediaIcon(!showMediaIcon)}>
-//             <i class="fa fa-bars "></i>
-//           </a>
-//         </div>
-//       </nav>
-//     </>
-//   );
-// }
-
-// export default Navbar;
-
 import React, { useState } from "react";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./Navbar.css";
-import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+    setMenuOpen(false);
+  };
+
+  const handleMenuClick = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   return (
     <nav>
@@ -72,16 +22,39 @@ const Navbar = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to="/home">Home</NavLink>
+          <Link to="home" smooth={true} duration={1000} onClick={scrollToTop}>
+            Home
+          </Link>{" "}
         </li>
         <li>
-          <NavLink to="/projects">Projects</NavLink>
+          <Link
+            to="projects"
+            smooth={true}
+            duration={1000}
+            onClick={handleMenuClick}
+          >
+            Projects
+          </Link>
         </li>
         <li>
-          <NavLink to="/achievements">Achievements</NavLink>
+          <Link
+            to="skills"
+            smooth={true}
+            duration={1000}
+            onClick={handleMenuClick}
+          >
+            Skills
+          </Link>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={1000}
+            onClick={handleMenuClick}
+          >
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>

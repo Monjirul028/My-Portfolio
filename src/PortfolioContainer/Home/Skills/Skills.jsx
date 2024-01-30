@@ -12,7 +12,7 @@ function Skills() {
   }, []);
 
   return (
-    <div className="skills-section">
+    <div className="skills-section" id="skills">
       <div className="footer-parent ">
         <img
           src={require("../../../assets/Home/shape-bg.png")}

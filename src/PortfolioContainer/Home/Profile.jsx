@@ -12,7 +12,7 @@ export default function () {
     });
   }, []);
   return (
-    <div className="profile-container">
+    <div className="profile-container" id="home">
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">

@@ -8,14 +8,12 @@ export default function MyWorks() {
         <h1>My Works</h1>
       </div>
       <div className="project-container-col">
-        <NavLink to="/projects">
-          <div class="main">
-            <div class="cardM" id="c1"></div>
-            <div class="cardM" id="c2"></div>
-            <div class="cardM" id="c3"></div>
-            <div class="cardM" id="c4"></div>
-          </div>
-        </NavLink>
+        <div class="main">
+          <div class="cardM" id="c1"></div>
+          <div class="cardM" id="c2"></div>
+          <div class="cardM" id="c3"></div>
+          <div class="cardM" id="c4"></div>
+        </div>
       </div>
 
       <div className="profile-options text-center">
