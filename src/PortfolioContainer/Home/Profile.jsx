@@ -3,6 +3,7 @@ import Typical from "react-typical";
 import "./Profile.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-scroll";
 
 export default function () {
   useEffect(() => {
@@ -62,7 +63,10 @@ export default function () {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">Hire me</button>
+            <Link to="contact" smooth={true} duration={1500}>
+              {" "}
+              <button className="btn primary-btn">Hire me</button>{" "}
+            </Link>
             <a
               href="https://drive.google.com/uc?export=download&id=1bN81isfDsB46LD44o0U3YApBi5pYnqna"
               download="MonjirulCV.pdf"
