@@ -19,7 +19,7 @@ function AboutMe() {
       <div className="about-me-container">
         <div className="about-me-image" data-AOS="slide-right">
           <img
-            src={require("../../../assets/Home/profilephoto3.jpg")}
+            src={require("../../../assets/Home/profilephoto.jpg")}
             alt="Your Alt Text"
             className="about-me-picture"
           />

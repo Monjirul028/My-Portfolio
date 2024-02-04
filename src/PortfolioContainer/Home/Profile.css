@@ -70,17 +70,17 @@
     justify-content: center;
     box-shadow: 0 1px 0 0 var(--white);
     border-radius: 50%;
-    height: 380px;
-    width: 380px;
+    height: 400px;
+    width: 400px;
     margin: 0 0px 0 100px;
 }
 
 
 .profile-picture-background
 {
-    height: 93%;
-    width: 93%;
-    background-image: url(../../assets/Home/profilephoto.jpg);
+    height: 95%;
+    width: 95%;
+    background-image: url(../../assets/Home/profilephoto3.jpg);
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;
@@ -89,7 +89,7 @@
 
 .profile-picture-background:hover
 {
-    transform: scale(1.07);
+    transform: scale(1.04);
     transition: 0.3s ease-out;
 }
 
