@@ -7,7 +7,10 @@
     justify-content: center;
     align-items: center;
     background-color: white;
+
 }
+
+
 .contact-form
 {
     border-radius: 5px;
@@ -22,9 +25,10 @@
     padding: 50px;
 }
 
+
 .contact-form .Input-field,textarea
 {
-    background-color: rgb(240, 246, 250);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     padding: 8px;
     border-radius: 5px;
@@ -43,6 +47,11 @@
     border-radius: 15px;
     background-color: rgb(213, 67, 22);
 
+}
+.send-btn:hover
+{
+    background-color:rgb(39, 48, 72);
+    box-shadow: 0 0 10px rgb(213, 67, 22);
 }
 
 @media (max-width: 620px)

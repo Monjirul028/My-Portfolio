@@ -6,6 +6,18 @@ function Contact() {
   const [errors, setErrors] = useState({});
 
   const form = useRef();
+  const [formData, setFormData] = useState({
+    user_name: "",
+    user_email: "",
+    message: "",
+  });
+
+  const handleInputChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
 
   useEffect(() => {
     Aos.init({
@@ -30,6 +42,8 @@ function Contact() {
           (result) => {
             console.log(result.text);
             console.log("message sent");
+            alert("Message sent");
+            setFormData({ user_name: "", user_email: "", message: "" });
           },
           (error) => {
             console.log(error.text);
@@ -91,7 +105,10 @@ function Contact() {
           type="text"
           name="user_name"
           placeholder="Your Name"
+          onChange={handleInputChange}
           className="Input-field"
+          id="name-field"
+          value={formData.user_name}
         />
 
         <input
@@ -99,9 +116,18 @@ function Contact() {
           name="user_email"
           placeholder="Email"
           className="Input-field"
+          onChange={handleInputChange}
+          id="email-field"
+          value={formData.user_email}
         />
 
-        <textarea name="message" placeholder="Message" />
+        <textarea
+          name="message"
+          placeholder="Message"
+          id="message-field"
+          onChange={handleInputChange}
+          value={formData.message}
+        />
         <input type="submit" value="Send" className="send-btn" />
       </form>
     </div>

@@ -72,14 +72,18 @@
 .about-me-picture
 {
     margin: 20px;
-    border-radius: 5%;
-    height: 370px;
-    width: 310px;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
     
     background: #e0e0e0;
 box-shadow:  10px 10px 20px #bebebe,
              -10px -10px 20px #ffffff;
              
+}
+.about-me-picture:hover 
+{
+    transform: scale(1.01);
 }
 
 
@@ -139,6 +143,8 @@ box-shadow:  26px 26px 52px #c9c9c9,
 }
 
 
+
+
 @media screen and (max-width: 810px) {
 
     .about-me-container
@@ -150,17 +156,14 @@ box-shadow:  26px 26px 52px #c9c9c9,
 
     .about-me-picture
     {
-        height: 300px;
-        width:260px;
+        height: 350px;
+        width:350px;
         z-index: 1;
         margin-bottom: 40px;
     }
 
 
-    .about-me-picture:hover 
-    {
-        transform: scale(1.01);
-    }
+   
 
     .about-me-head h1
     {
@@ -179,4 +182,15 @@ box-shadow:  26px 26px 52px #c9c9c9,
 
 
 
+}
+
+@media screen and (max-width: 400px) 
+{
+    .about-me-picture
+    {
+        height: 280px;
+        width:280px;
+        z-index: 1;
+        margin-bottom: 40px;
+    }
 }
